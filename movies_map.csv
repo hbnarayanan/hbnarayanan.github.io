@@ -1,0 +1,67 @@
+country,count,neflix_sum,hulu_sum,prime_sum,disney_sum,code
+Argentina,20,18,0,2,0,ARG
+Australia,83,19,18,49,1,AUS
+Austria,7,4,1,2,0,AUT
+Bangladesh,3,3,0,0,0,BGD
+Brazil,33,30,1,3,0,BRA
+Cambodia,1,1,0,0,0,KHM
+Cameroon,1,1,0,0,0,CMR
+Canada,209,52,19,138,3,CAN
+Chile,6,4,0,2,0,CHL
+China,77,49,4,23,1,CHN
+Colombia,10,7,0,3,0,COL
+Czechia,1,0,1,0,0,CZE
+Denmark,5,2,2,1,0,DNK
+Egypt,38,37,0,2,0,EGY
+Finland,1,1,0,0,0,FIN
+France,87,44,6,36,1,FRA
+Georgia,1,1,0,0,0,GEO
+Germany,53,33,2,18,1,DEU
+Ghana,3,3,0,0,0,GHA
+Greece,2,0,0,2,0,GRC
+Guatemala,1,0,0,1,0,GTM
+Hungary,3,3,0,0,0,HUN
+Iceland,2,1,0,1,0,ISL
+India,784,505,3,288,2,IND
+Indonesia,50,48,1,1,0,IDN
+Iran,2,1,0,1,0,IRN
+Ireland,10,2,1,7,0,IRL
+Israel,3,1,0,2,0,ISR
+Italy,47,22,1,24,0,ITA
+Japan,105,62,16,28,0,JPN
+Kenya,2,1,0,1,0,KEN
+Kuwait,2,2,0,0,0,KWT
+Latvia,1,0,0,1,0,LVA
+Lebanon,9,9,0,0,0,LBN
+Malaysia,14,14,0,0,0,MYS
+Mexico,48,38,1,9,0,MEX
+Namibia,1,1,0,0,0,NAM
+Netherlands,14,8,0,6,0,NLD
+New Zealand,15,6,4,6,0,NZL
+Nigeria,63,63,0,1,0,NGA
+Norway,6,2,2,3,0,NOR
+Pakistan,8,5,0,3,0,PAK
+Peru,4,4,0,0,0,PER
+Philippines,68,59,0,9,0,PHL
+Poland,14,11,0,3,0,POL
+Republic of North Macedonia,1,0,1,0,0,MKD
+Romania,6,5,0,1,0,ROU
+Russia,21,4,2,15,0,RUS
+Saudi Arabia,5,5,0,0,0,SAU
+Serbia,2,0,0,2,0,SRB
+South Africa,23,18,0,5,0,ZAF
+South Korea,65,28,15,23,0,KOR
+Spain,90,78,1,11,0,ESP
+Sweden,8,5,1,2,0,SWE
+Switzerland,2,1,0,1,0,CHE
+Taiwan,15,12,0,3,0,TWN
+Thailand,26,19,0,7,0,THA
+Turkey,47,47,0,0,0,TUR
+Ukraine,4,0,0,4,0,UKR
+United Arab Emirates,12,11,0,0,1,ARE
+United Kingdom,329,89,38,206,8,GBR
+United States,4357,1165,549,2141,632,USA
+Uruguay,2,2,0,0,0,URY
+Venezuela,4,0,1,3,0,VEN
+Vietnam,3,3,0,0,0,VNM
+Zimbabwe,1,1,0,0,0,ZWE

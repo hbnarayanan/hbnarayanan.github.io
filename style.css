@@ -1,0 +1,32 @@
+  body {
+    font-family:"FreeMono", monospace;
+    font-size: 14px;
+    color: #333131;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f1f0f0;
+  }
+
+  .label {
+    margin-left: 15px;
+  }
+  
+  #selection {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  line {
+    stroke: gray;
+  }
+  
+  line#limit {
+    stroke: #a19f9f;
+    stroke-width: 1;
+  }
+
+  text.title {
+    font-size: 14px;
+    font-weight: 600;
+  }

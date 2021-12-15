@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Analysis</title>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <h1 style="text-align:center">Welcome To Our Movie Analysis!</h1> 
+  </head>
+
+  <body>
+    <p>
+      <span id="map_interactive">
+        <h3>Check Out This Interactive Movie Map!</h3>
+        <hr>
+         <div>For the best visual effects for the world map, we recommend you use a mouse to zoom in and hover.</div>
+        <p>Hover over a country to see the total number
+          of movies in our data that were produced from that specific country, 
+          as well as the number of movies produced in that
+          country that were streamed on Netflix, Hulu,
+          Amazon Prime, and Disney Plus. To see a more regionally detailed view of the map zoom, in and out with the mouse.
+        </p>
+        <div id="tooltip"></div>
+        <svg id="map"></svg>
+      </span>
+      <span id="map_interactive">
+        <h3>Check Out These Top Movies From 2000-2021!</h3>
+        <hr>
+        <p>Select a year from the dropdown menu below to 
+          see the top 10 Shows or Movies for the given year,
+          according to the IMDb Rating.
+        </p>
+        <div id="selectMe"></div>
+        <div id="chartContainer"></div>
+        <br>  
+        <br>  
+      </span>
+    </p>
+    <footer>
+      <p style="text-align:center", font-size=8px>
+        By Harshita Narayanan, Logan O'Brien, Samuel Peterson, Annie Won
+      </p>
+    </footer>
+    <script src="map.js"></script>
+    <script src="bar.js" type="module" async></script>
+  </body>
+</html>
