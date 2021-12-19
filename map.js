@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 10, bottom: 40, left: 100},
-    width = 1000 - margin.left - margin.right,
-       height = 500 - margin.top - margin.bottom;
+    width = 1200 - margin.left - margin.right,
+       height = 600 - margin.top - margin.bottom;
 
 // The svg
 var svg = d3.select("svg")
@@ -31,7 +31,7 @@ var svg = d3.select("svg")
 // Map and projection
 //var path = d3.geoPath();
 var projection = d3.geoMercator()
-  .scale(70)
+  .scale(120)
   .center([0,20])
   .translate([width / 2 - margin.left, height / 2]);
 
@@ -65,18 +65,7 @@ myDataPromises = Promise.all(promises).then(function(topo) {
           .style("opacity", .8)
 
           
-        /*var population = data.get(d.id) || 0;
-        var min_pop = 0
-        var max_pop = domain[0]
-        for(var i = 0; i < domain.length; i++){
-          if (population >= min_pop && population <= max_pop)
-            break;
-          min_pop = domain[i]
-          if (i < domain.length-1)
-            max_pop = domain[i+1]
-          else
-            max_pop = 1e50
-        }*/
+
         
       d3.select(this)
         //.filter(function(d){d.total = data.get(d.id) || 0; return d.total <= max_pop && d.total >= min_pop})
@@ -171,33 +160,6 @@ myDataPromises = Promise.all(promises).then(function(topo) {
   }));
 
   
-//   // Features of the annotation
-//   const annotations = [
-//     {
-//     note: {
-//       label: "despite its great territorial extension Australia has only 20 million inhabitants.",
-//       title: "Australia Population",
-//       wrap: 150,  // try something smaller to see text split in several lines
-//       padding: 10   // More = text lower
-      
-//     },
-//     color: ["#852170"],
-//     x: projection([150.916672,-31.083332])[0],
-//     y: projection([150.916672,-31.083332])[1],
-//     dy: -30,
-//     dx: 10
-//   }
-// ]
 
-
-
-// // Add annotation to the chart
-// const makeAnnotations = d3.annotation()
-//   .annotations(annotations)
-
-//   svg.append("g")
-//   .style("opacity", 1)
-//   .attr("id", "annotation")
-//   .call(makeAnnotations)
 
     })
